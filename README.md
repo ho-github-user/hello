@@ -16,7 +16,7 @@ function IEnumerable<string> GetLanguages() {
 ```
 
 ```
-// サンプル２
+/// プログラム言語の情報を保持する
 class ProgramLanguage {
   public string Name { get; set; };
   public bool IsScript { get; set; };
